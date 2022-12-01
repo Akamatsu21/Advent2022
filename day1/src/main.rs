@@ -14,7 +14,6 @@ fn main()
     let mut max: [u64; 3] = [0, 0, 0];
     for line in contents.lines()
     {
-       println!("{line}");
         match line
         {
             "" => 
