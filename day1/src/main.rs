@@ -23,7 +23,7 @@ fn main()
                 {
                     if current_total > max[i]
                     {
-                        let buffer: u64 = max[i];
+                        let buffer = max[i];
                         max[i] = current_total;
                         current_total = buffer;
                     }
