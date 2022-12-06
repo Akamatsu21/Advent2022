@@ -69,7 +69,7 @@ fn get_top_crates(contents: &String, model: u64) -> String
         }
     }
 
-    let mut top_crates: String = String::new();
+    let mut top_crates = String::new();
     for stack in stacks.iter()
     {
         match stack.get(stack.len() - 1)
